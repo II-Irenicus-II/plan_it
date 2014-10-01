@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1B8699FF-B8AC-4282-9357-068F60FF5D5E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PlanIT</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0D3DC5111511E160583CCBA10597716A5BB98C8B</key>
+		<string>https://bitbucket.org/fbousquet/planit-dev-depo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/PlanIT/PlanIT.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0D3DC5111511E160583CCBA10597716A5BB98C8B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/fbousquet/planit-dev-depo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0D3DC5111511E160583CCBA10597716A5BB98C8B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0D3DC5111511E160583CCBA10597716A5BB98C8B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>planit-dev-depo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

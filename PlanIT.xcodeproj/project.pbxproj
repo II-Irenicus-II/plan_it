@@ -1,0 +1,1368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD299D05184CDE9300D6F05C /* PIAddBugTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299C93184CDE9300D6F05C /* PIAddBugTableViewController.m */; };
+		AD299D06184CDE9300D6F05C /* PIAddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299C95184CDE9300D6F05C /* PIAddEventViewController.m */; };
+		AD299D07184CDE9300D6F05C /* PIAddFeatureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299C97184CDE9300D6F05C /* PIAddFeatureTableViewController.m */; };
+		AD299D08184CDE9300D6F05C /* PIAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299C99184CDE9300D6F05C /* PIAddTaskViewController.m */; };
+		AD299D09184CDE9300D6F05C /* PIAddUserViewOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299C9B184CDE9300D6F05C /* PIAddUserViewOneController.m */; };
+		AD299D0A184CDE9300D6F05C /* PIAddUserViewTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299C9D184CDE9300D6F05C /* PIAddUserViewTwoController.m */; };
+		AD299D0C184CDE9300D6F05C /* PIArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CA1184CDE9300D6F05C /* PIArticle.m */; };
+		AD299D0D184CDE9300D6F05C /* PIBug.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CA3184CDE9300D6F05C /* PIBug.m */; };
+		AD299D0E184CDE9300D6F05C /* PIBugDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CA5184CDE9300D6F05C /* PIBugDataController.m */; };
+		AD299D0F184CDE9300D6F05C /* PIBugsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CA7184CDE9300D6F05C /* PIBugsTableViewController.m */; };
+		AD299D10184CDE9300D6F05C /* PIBugStatusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CA9184CDE9300D6F05C /* PIBugStatusTableViewController.m */; };
+		AD299D11184CDE9300D6F05C /* PIBugTypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CAB184CDE9300D6F05C /* PIBugTypeTableViewController.m */; };
+		AD299D12184CDE9300D6F05C /* PICAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CAD184CDE9300D6F05C /* PICAccount.m */; };
+		AD299D13184CDE9300D6F05C /* PICalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CAF184CDE9300D6F05C /* PICalendarViewController.m */; };
+		AD299D14184CDE9300D6F05C /* PIClientAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CB1184CDE9300D6F05C /* PIClientAPI.m */; };
+		AD299D15184CDE9300D6F05C /* PICoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CB3184CDE9300D6F05C /* PICoreDataController.m */; };
+		AD299D16184CDE9300D6F05C /* PICProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CB5184CDE9300D6F05C /* PICProfile.m */; };
+		AD299D17184CDE9300D6F05C /* PICProject.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CB7184CDE9300D6F05C /* PICProject.m */; };
+		AD299D18184CDE9300D6F05C /* PICustomPreviewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CB9184CDE9300D6F05C /* PICustomPreviewItem.m */; };
+		AD299D19184CDE9300D6F05C /* PIDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CBB184CDE9300D6F05C /* PIDayViewController.m */; };
+		AD299D1A184CDE9300D6F05C /* PIDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CBE184CDE9300D6F05C /* PIDescriptionViewController.m */; };
+		AD299D1B184CDE9300D6F05C /* PIDetailedBugTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CC0184CDE9300D6F05C /* PIDetailedBugTableViewController.m */; };
+		AD299D1C184CDE9300D6F05C /* PIDetailedEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CC2184CDE9300D6F05C /* PIDetailedEventViewController.m */; };
+		AD299D1D184CDE9300D6F05C /* PIDetailedFeatureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CC4184CDE9300D6F05C /* PIDetailedFeatureTableViewController.m */; };
+		AD299D1E184CDE9300D6F05C /* PIDetailedTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CC6184CDE9300D6F05C /* PIDetailedTaskViewController.m */; };
+		AD299D1F184CDE9300D6F05C /* PIDetailedUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CC8184CDE9300D6F05C /* PIDetailedUserController.m */; };
+		AD299D20184CDE9300D6F05C /* PIDocumentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CCA184CDE9300D6F05C /* PIDocumentTableViewController.m */; };
+		AD299D21184CDE9300D6F05C /* PIEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CCC184CDE9300D6F05C /* PIEvent.m */; };
+		AD299D22184CDE9300D6F05C /* PIEventDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CCE184CDE9300D6F05C /* PIEventDataController.m */; };
+		AD299D23184CDE9300D6F05C /* PIFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CD0184CDE9300D6F05C /* PIFeature.m */; };
+		AD299D24184CDE9300D6F05C /* PIFeatureDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CD2184CDE9300D6F05C /* PIFeatureDataController.m */; };
+		AD299D25184CDE9300D6F05C /* PIFeaturesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CD4184CDE9300D6F05C /* PIFeaturesTableViewController.m */; };
+		AD299D26184CDE9300D6F05C /* PIFeatureStatusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CD6184CDE9300D6F05C /* PIFeatureStatusTableViewController.m */; };
+		AD299D27184CDE9300D6F05C /* PIGalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CD8184CDE9300D6F05C /* PIGalleryCell.m */; };
+		AD299D28184CDE9300D6F05C /* PIGalleryController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CDA184CDE9300D6F05C /* PIGalleryController.m */; };
+		AD299D29184CDE9300D6F05C /* PIImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CDC184CDE9300D6F05C /* PIImageViewController.m */; };
+		AD299D2A184CDE9300D6F05C /* PILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CDE184CDE9300D6F05C /* PILoginViewController.m */; };
+		AD299D2B184CDE9300D6F05C /* PIProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CE0184CDE9300D6F05C /* PIProfile.m */; };
+		AD299D2C184CDE9300D6F05C /* PIProject.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CE2184CDE9300D6F05C /* PIProject.m */; };
+		AD299D2D184CDE9300D6F05C /* PIProjectSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CE4184CDE9300D6F05C /* PIProjectSelectorController.m */; };
+		AD299D2E184CDE9300D6F05C /* PIResource.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CE6184CDE9300D6F05C /* PIResource.m */; };
+		AD299D2F184CDE9300D6F05C /* PIResponsableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CE8184CDE9300D6F05C /* PIResponsableTableViewController.m */; };
+		AD299D30184CDE9300D6F05C /* PIRoadmapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CEA184CDE9300D6F05C /* PIRoadmapViewController.m */; };
+		AD299D31184CDE9300D6F05C /* PISection.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CEC184CDE9300D6F05C /* PISection.m */; };
+		AD299D32184CDE9300D6F05C /* PISettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CEE184CDE9300D6F05C /* PISettingsViewController.m */; };
+		AD299D33184CDE9300D6F05C /* PITask.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CF0184CDE9300D6F05C /* PITask.m */; };
+		AD299D34184CDE9300D6F05C /* PITaskDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CF2184CDE9300D6F05C /* PITaskDataController.m */; };
+		AD299D35184CDE9300D6F05C /* PITasksListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CF4184CDE9300D6F05C /* PITasksListTableViewController.m */; };
+		AD299D36184CDE9300D6F05C /* PITasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CF6184CDE9300D6F05C /* PITasksTableViewController.m */; };
+		AD299D37184CDE9300D6F05C /* PIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CF8184CDE9300D6F05C /* PIUser.m */; };
+		AD299D38184CDE9300D6F05C /* PIUserDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CFA184CDE9300D6F05C /* PIUserDataController.m */; };
+		AD299D39184CDE9300D6F05C /* PIUserRightsController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CFC184CDE9300D6F05C /* PIUserRightsController.m */; };
+		AD299D3A184CDE9300D6F05C /* PIUsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299CFE184CDE9300D6F05C /* PIUsersTableViewController.m */; };
+		AD299D3B184CDE9300D6F05C /* PIWikiPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299D00184CDE9300D6F05C /* PIWikiPageViewController.m */; };
+		AD299D3C184CDE9300D6F05C /* PIWikiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299D02184CDE9300D6F05C /* PIWikiTableViewController.m */; };
+		AD299D3D184CDE9300D6F05C /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299D04184CDE9300D6F05C /* Tools.m */; };
+		AD299D7E184CE5CB00D6F05C /* PlanIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD299D7C184CE5CB00D6F05C /* PlanIt.xcdatamodeld */; };
+		AD299D81184D013E00D6F05C /* PILogSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299D80184D013E00D6F05C /* PILogSegue.m */; };
+		AD299D84184D0C9B00D6F05C /* NSDateFormatter+RFC822.m in Sources */ = {isa = PBXBuildFile; fileRef = AD299D83184D0C9B00D6F05C /* NSDateFormatter+RFC822.m */; };
+		AD8634DB184CDAE400A25F87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8634DA184CDAE400A25F87 /* Foundation.framework */; };
+		AD8634DD184CDAE400A25F87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8634DC184CDAE400A25F87 /* CoreGraphics.framework */; };
+		AD8634DF184CDAE400A25F87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8634DE184CDAE400A25F87 /* UIKit.framework */; };
+		AD8634E5184CDAE400A25F87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD8634E3184CDAE400A25F87 /* InfoPlist.strings */; };
+		AD8634E7184CDAE400A25F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8634E6184CDAE400A25F87 /* main.m */; };
+		AD8634F6184CDAE400A25F87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8634F5184CDAE400A25F87 /* Images.xcassets */; };
+		AD8634FD184CDAE400A25F87 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8634FC184CDAE400A25F87 /* XCTest.framework */; };
+		AD8634FE184CDAE400A25F87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8634DA184CDAE400A25F87 /* Foundation.framework */; };
+		AD8634FF184CDAE400A25F87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8634DE184CDAE400A25F87 /* UIKit.framework */; };
+		AD863507184CDAE400A25F87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD863505184CDAE400A25F87 /* InfoPlist.strings */; };
+		AD863509184CDAE400A25F87 /* PlanITTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD863508184CDAE400A25F87 /* PlanITTests.m */; };
+		AD863513184CDD4E00A25F87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD863512184CDD4E00A25F87 /* Main.storyboard */; };
+		AD863516184CDDA600A25F87 /* PIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD863515184CDDA600A25F87 /* PIAppDelegate.m */; };
+		CAEBD439912B4AD99C1BD3C5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAEE1D756BC4953B6B633A1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD863500184CDAE400A25F87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8634CF184CDAE400A25F87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8634D6184CDAE400A25F87;
+			remoteInfo = PlanIT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C80E641140348AE8B5C580B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AD299C92184CDE9300D6F05C /* PIAddBugTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIAddBugTableViewController.h; sourceTree = "<group>"; };
+		AD299C93184CDE9300D6F05C /* PIAddBugTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIAddBugTableViewController.m; sourceTree = "<group>"; };
+		AD299C94184CDE9300D6F05C /* PIAddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIAddEventViewController.h; sourceTree = "<group>"; };
+		AD299C95184CDE9300D6F05C /* PIAddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIAddEventViewController.m; sourceTree = "<group>"; };
+		AD299C96184CDE9300D6F05C /* PIAddFeatureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIAddFeatureTableViewController.h; sourceTree = "<group>"; };
+		AD299C97184CDE9300D6F05C /* PIAddFeatureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIAddFeatureTableViewController.m; sourceTree = "<group>"; };
+		AD299C98184CDE9300D6F05C /* PIAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIAddTaskViewController.h; sourceTree = "<group>"; };
+		AD299C99184CDE9300D6F05C /* PIAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIAddTaskViewController.m; sourceTree = "<group>"; };
+		AD299C9A184CDE9300D6F05C /* PIAddUserViewOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIAddUserViewOneController.h; sourceTree = "<group>"; };
+		AD299C9B184CDE9300D6F05C /* PIAddUserViewOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIAddUserViewOneController.m; sourceTree = "<group>"; };
+		AD299C9C184CDE9300D6F05C /* PIAddUserViewTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIAddUserViewTwoController.h; sourceTree = "<group>"; };
+		AD299C9D184CDE9300D6F05C /* PIAddUserViewTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIAddUserViewTwoController.m; sourceTree = "<group>"; };
+		AD299C9E184CDE9300D6F05C /* PIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIAppDelegate.h; sourceTree = "<group>"; };
+		AD299C9F184CDE9300D6F05C /* PIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIAppDelegate.m; sourceTree = "<group>"; };
+		AD299CA0184CDE9300D6F05C /* PIArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIArticle.h; sourceTree = "<group>"; };
+		AD299CA1184CDE9300D6F05C /* PIArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIArticle.m; sourceTree = "<group>"; };
+		AD299CA2184CDE9300D6F05C /* PIBug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIBug.h; sourceTree = "<group>"; };
+		AD299CA3184CDE9300D6F05C /* PIBug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIBug.m; sourceTree = "<group>"; };
+		AD299CA4184CDE9300D6F05C /* PIBugDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIBugDataController.h; sourceTree = "<group>"; };
+		AD299CA5184CDE9300D6F05C /* PIBugDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIBugDataController.m; sourceTree = "<group>"; };
+		AD299CA6184CDE9300D6F05C /* PIBugsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIBugsTableViewController.h; sourceTree = "<group>"; };
+		AD299CA7184CDE9300D6F05C /* PIBugsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIBugsTableViewController.m; sourceTree = "<group>"; };
+		AD299CA8184CDE9300D6F05C /* PIBugStatusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIBugStatusTableViewController.h; sourceTree = "<group>"; };
+		AD299CA9184CDE9300D6F05C /* PIBugStatusTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIBugStatusTableViewController.m; sourceTree = "<group>"; };
+		AD299CAA184CDE9300D6F05C /* PIBugTypeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIBugTypeTableViewController.h; sourceTree = "<group>"; };
+		AD299CAB184CDE9300D6F05C /* PIBugTypeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIBugTypeTableViewController.m; sourceTree = "<group>"; };
+		AD299CAC184CDE9300D6F05C /* PICAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PICAccount.h; sourceTree = "<group>"; };
+		AD299CAD184CDE9300D6F05C /* PICAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PICAccount.m; sourceTree = "<group>"; };
+		AD299CAE184CDE9300D6F05C /* PICalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PICalendarViewController.h; sourceTree = "<group>"; };
+		AD299CAF184CDE9300D6F05C /* PICalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PICalendarViewController.m; sourceTree = "<group>"; };
+		AD299CB0184CDE9300D6F05C /* PIClientAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIClientAPI.h; sourceTree = "<group>"; };
+		AD299CB1184CDE9300D6F05C /* PIClientAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIClientAPI.m; sourceTree = "<group>"; };
+		AD299CB2184CDE9300D6F05C /* PICoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PICoreDataController.h; sourceTree = "<group>"; };
+		AD299CB3184CDE9300D6F05C /* PICoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PICoreDataController.m; sourceTree = "<group>"; };
+		AD299CB4184CDE9300D6F05C /* PICProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PICProfile.h; sourceTree = "<group>"; };
+		AD299CB5184CDE9300D6F05C /* PICProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PICProfile.m; sourceTree = "<group>"; };
+		AD299CB6184CDE9300D6F05C /* PICProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PICProject.h; sourceTree = "<group>"; };
+		AD299CB7184CDE9300D6F05C /* PICProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PICProject.m; sourceTree = "<group>"; };
+		AD299CB8184CDE9300D6F05C /* PICustomPreviewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PICustomPreviewItem.h; sourceTree = "<group>"; };
+		AD299CB9184CDE9300D6F05C /* PICustomPreviewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PICustomPreviewItem.m; sourceTree = "<group>"; };
+		AD299CBA184CDE9300D6F05C /* PIDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIDayViewController.h; sourceTree = "<group>"; };
+		AD299CBB184CDE9300D6F05C /* PIDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIDayViewController.m; sourceTree = "<group>"; };
+		AD299CBD184CDE9300D6F05C /* PIDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIDescriptionViewController.h; sourceTree = "<group>"; };
+		AD299CBE184CDE9300D6F05C /* PIDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIDescriptionViewController.m; sourceTree = "<group>"; };
+		AD299CBF184CDE9300D6F05C /* PIDetailedBugTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIDetailedBugTableViewController.h; sourceTree = "<group>"; };
+		AD299CC0184CDE9300D6F05C /* PIDetailedBugTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIDetailedBugTableViewController.m; sourceTree = "<group>"; };
+		AD299CC1184CDE9300D6F05C /* PIDetailedEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIDetailedEventViewController.h; sourceTree = "<group>"; };
+		AD299CC2184CDE9300D6F05C /* PIDetailedEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIDetailedEventViewController.m; sourceTree = "<group>"; };
+		AD299CC3184CDE9300D6F05C /* PIDetailedFeatureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIDetailedFeatureTableViewController.h; sourceTree = "<group>"; };
+		AD299CC4184CDE9300D6F05C /* PIDetailedFeatureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIDetailedFeatureTableViewController.m; sourceTree = "<group>"; };
+		AD299CC5184CDE9300D6F05C /* PIDetailedTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIDetailedTaskViewController.h; sourceTree = "<group>"; };
+		AD299CC6184CDE9300D6F05C /* PIDetailedTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIDetailedTaskViewController.m; sourceTree = "<group>"; };
+		AD299CC7184CDE9300D6F05C /* PIDetailedUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIDetailedUserController.h; sourceTree = "<group>"; };
+		AD299CC8184CDE9300D6F05C /* PIDetailedUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIDetailedUserController.m; sourceTree = "<group>"; };
+		AD299CC9184CDE9300D6F05C /* PIDocumentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIDocumentTableViewController.h; sourceTree = "<group>"; };
+		AD299CCA184CDE9300D6F05C /* PIDocumentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIDocumentTableViewController.m; sourceTree = "<group>"; };
+		AD299CCB184CDE9300D6F05C /* PIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIEvent.h; sourceTree = "<group>"; };
+		AD299CCC184CDE9300D6F05C /* PIEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIEvent.m; sourceTree = "<group>"; };
+		AD299CCD184CDE9300D6F05C /* PIEventDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIEventDataController.h; sourceTree = "<group>"; };
+		AD299CCE184CDE9300D6F05C /* PIEventDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIEventDataController.m; sourceTree = "<group>"; };
+		AD299CCF184CDE9300D6F05C /* PIFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIFeature.h; sourceTree = "<group>"; };
+		AD299CD0184CDE9300D6F05C /* PIFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIFeature.m; sourceTree = "<group>"; };
+		AD299CD1184CDE9300D6F05C /* PIFeatureDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIFeatureDataController.h; sourceTree = "<group>"; };
+		AD299CD2184CDE9300D6F05C /* PIFeatureDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIFeatureDataController.m; sourceTree = "<group>"; };
+		AD299CD3184CDE9300D6F05C /* PIFeaturesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIFeaturesTableViewController.h; sourceTree = "<group>"; };
+		AD299CD4184CDE9300D6F05C /* PIFeaturesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIFeaturesTableViewController.m; sourceTree = "<group>"; };
+		AD299CD5184CDE9300D6F05C /* PIFeatureStatusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIFeatureStatusTableViewController.h; sourceTree = "<group>"; };
+		AD299CD6184CDE9300D6F05C /* PIFeatureStatusTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIFeatureStatusTableViewController.m; sourceTree = "<group>"; };
+		AD299CD7184CDE9300D6F05C /* PIGalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIGalleryCell.h; sourceTree = "<group>"; };
+		AD299CD8184CDE9300D6F05C /* PIGalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIGalleryCell.m; sourceTree = "<group>"; };
+		AD299CD9184CDE9300D6F05C /* PIGalleryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIGalleryController.h; sourceTree = "<group>"; };
+		AD299CDA184CDE9300D6F05C /* PIGalleryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIGalleryController.m; sourceTree = "<group>"; };
+		AD299CDB184CDE9300D6F05C /* PIImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIImageViewController.h; sourceTree = "<group>"; };
+		AD299CDC184CDE9300D6F05C /* PIImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIImageViewController.m; sourceTree = "<group>"; };
+		AD299CDD184CDE9300D6F05C /* PILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PILoginViewController.h; sourceTree = "<group>"; };
+		AD299CDE184CDE9300D6F05C /* PILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PILoginViewController.m; sourceTree = "<group>"; };
+		AD299CDF184CDE9300D6F05C /* PIProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIProfile.h; sourceTree = "<group>"; };
+		AD299CE0184CDE9300D6F05C /* PIProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIProfile.m; sourceTree = "<group>"; };
+		AD299CE1184CDE9300D6F05C /* PIProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIProject.h; sourceTree = "<group>"; };
+		AD299CE2184CDE9300D6F05C /* PIProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIProject.m; sourceTree = "<group>"; };
+		AD299CE3184CDE9300D6F05C /* PIProjectSelectorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIProjectSelectorController.h; sourceTree = "<group>"; };
+		AD299CE4184CDE9300D6F05C /* PIProjectSelectorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIProjectSelectorController.m; sourceTree = "<group>"; };
+		AD299CE5184CDE9300D6F05C /* PIResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIResource.h; sourceTree = "<group>"; };
+		AD299CE6184CDE9300D6F05C /* PIResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIResource.m; sourceTree = "<group>"; };
+		AD299CE7184CDE9300D6F05C /* PIResponsableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIResponsableTableViewController.h; sourceTree = "<group>"; };
+		AD299CE8184CDE9300D6F05C /* PIResponsableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIResponsableTableViewController.m; sourceTree = "<group>"; };
+		AD299CE9184CDE9300D6F05C /* PIRoadmapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIRoadmapViewController.h; sourceTree = "<group>"; };
+		AD299CEA184CDE9300D6F05C /* PIRoadmapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIRoadmapViewController.m; sourceTree = "<group>"; };
+		AD299CEB184CDE9300D6F05C /* PISection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PISection.h; sourceTree = "<group>"; };
+		AD299CEC184CDE9300D6F05C /* PISection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PISection.m; sourceTree = "<group>"; };
+		AD299CED184CDE9300D6F05C /* PISettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PISettingsViewController.h; sourceTree = "<group>"; };
+		AD299CEE184CDE9300D6F05C /* PISettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PISettingsViewController.m; sourceTree = "<group>"; };
+		AD299CEF184CDE9300D6F05C /* PITask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PITask.h; sourceTree = "<group>"; };
+		AD299CF0184CDE9300D6F05C /* PITask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PITask.m; sourceTree = "<group>"; };
+		AD299CF1184CDE9300D6F05C /* PITaskDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PITaskDataController.h; sourceTree = "<group>"; };
+		AD299CF2184CDE9300D6F05C /* PITaskDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PITaskDataController.m; sourceTree = "<group>"; };
+		AD299CF3184CDE9300D6F05C /* PITasksListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PITasksListTableViewController.h; sourceTree = "<group>"; };
+		AD299CF4184CDE9300D6F05C /* PITasksListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PITasksListTableViewController.m; sourceTree = "<group>"; };
+		AD299CF5184CDE9300D6F05C /* PITasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PITasksTableViewController.h; sourceTree = "<group>"; };
+		AD299CF6184CDE9300D6F05C /* PITasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PITasksTableViewController.m; sourceTree = "<group>"; };
+		AD299CF7184CDE9300D6F05C /* PIUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIUser.h; sourceTree = "<group>"; };
+		AD299CF8184CDE9300D6F05C /* PIUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIUser.m; sourceTree = "<group>"; };
+		AD299CF9184CDE9300D6F05C /* PIUserDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIUserDataController.h; sourceTree = "<group>"; };
+		AD299CFA184CDE9300D6F05C /* PIUserDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIUserDataController.m; sourceTree = "<group>"; };
+		AD299CFB184CDE9300D6F05C /* PIUserRightsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIUserRightsController.h; sourceTree = "<group>"; };
+		AD299CFC184CDE9300D6F05C /* PIUserRightsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIUserRightsController.m; sourceTree = "<group>"; };
+		AD299CFD184CDE9300D6F05C /* PIUsersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIUsersTableViewController.h; sourceTree = "<group>"; };
+		AD299CFE184CDE9300D6F05C /* PIUsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIUsersTableViewController.m; sourceTree = "<group>"; };
+		AD299CFF184CDE9300D6F05C /* PIWikiPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIWikiPageViewController.h; sourceTree = "<group>"; };
+		AD299D00184CDE9300D6F05C /* PIWikiPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIWikiPageViewController.m; sourceTree = "<group>"; };
+		AD299D01184CDE9300D6F05C /* PIWikiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIWikiTableViewController.h; sourceTree = "<group>"; };
+		AD299D02184CDE9300D6F05C /* PIWikiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIWikiTableViewController.m; sourceTree = "<group>"; };
+		AD299D03184CDE9300D6F05C /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		AD299D04184CDE9300D6F05C /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		AD299D7D184CE5CB00D6F05C /* PlanIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlanIt.xcdatamodel; sourceTree = "<group>"; };
+		AD299D7F184D013E00D6F05C /* PILogSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PILogSegue.h; sourceTree = "<group>"; };
+		AD299D80184D013E00D6F05C /* PILogSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PILogSegue.m; sourceTree = "<group>"; };
+		AD299D82184D0C9B00D6F05C /* NSDateFormatter+RFC822.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+RFC822.h"; sourceTree = "<group>"; };
+		AD299D83184D0C9B00D6F05C /* NSDateFormatter+RFC822.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+RFC822.m"; sourceTree = "<group>"; };
+		AD8634D7184CDAE400A25F87 /* PlanIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8634DA184CDAE400A25F87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD8634DC184CDAE400A25F87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD8634DE184CDAE400A25F87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD8634E2184CDAE400A25F87 /* PlanIT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlanIT-Info.plist"; sourceTree = "<group>"; };
+		AD8634E4184CDAE400A25F87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD8634E6184CDAE400A25F87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD8634E8184CDAE400A25F87 /* PlanIT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlanIT-Prefix.pch"; sourceTree = "<group>"; };
+		AD8634F5184CDAE400A25F87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD8634FB184CDAE400A25F87 /* PlanITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8634FC184CDAE400A25F87 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AD863504184CDAE400A25F87 /* PlanITTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlanITTests-Info.plist"; sourceTree = "<group>"; };
+		AD863506184CDAE400A25F87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD863508184CDAE400A25F87 /* PlanITTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanITTests.m; sourceTree = "<group>"; };
+		AD863512184CDD4E00A25F87 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AD863514184CDDA600A25F87 /* PIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIAppDelegate.h; sourceTree = "<group>"; };
+		AD863515184CDDA600A25F87 /* PIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIAppDelegate.m; sourceTree = "<group>"; };
+		DCAEE1D756BC4953B6B633A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD8634D4184CDAE400A25F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8634DD184CDAE400A25F87 /* CoreGraphics.framework in Frameworks */,
+				AD8634DF184CDAE400A25F87 /* UIKit.framework in Frameworks */,
+				AD8634DB184CDAE400A25F87 /* Foundation.framework in Frameworks */,
+				CAEBD439912B4AD99C1BD3C5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8634F8184CDAE400A25F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8634FD184CDAE400A25F87 /* XCTest.framework in Frameworks */,
+				AD8634FF184CDAE400A25F87 /* UIKit.framework in Frameworks */,
+				AD8634FE184CDAE400A25F87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD299D3E184CDEA100D6F05C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D64184CE17A00D6F05C /* Event */,
+				AD299D65184CE18000D6F05C /* Feature */,
+				AD299D62184CE13100D6F05C /* User */,
+				AD299D5B184CE0F300D6F05C /* Profile */,
+				AD299D5C184CE0FB00D6F05C /* Project */,
+				AD299D5D184CE10600D6F05C /* Resource */,
+				AD299D5E184CE10E00D6F05C /* Section */,
+				AD299D5F184CE11700D6F05C /* Task */,
+				AD299D60184CE11E00D6F05C /* Article */,
+				AD299D61184CE12500D6F05C /* Bug */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AD299D3F184CDEAF00D6F05C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D4B184CDFC800D6F05C /* Login */,
+				AD299D49184CDFBB00D6F05C /* Users */,
+				AD299D48184CDFB600D6F05C /* Resources */,
+				AD299D47184CDFAE00D6F05C /* Schedule */,
+				AD299D46184CDF9900D6F05C /* Requests */,
+				AD299D4A184CDFC300D6F05C /* Settings */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AD299D40184CDEDE00D6F05C /* ClientAPI */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CB0184CDE9300D6F05C /* PIClientAPI.h */,
+				AD299CB1184CDE9300D6F05C /* PIClientAPI.m */,
+			);
+			name = ClientAPI;
+			sourceTree = "<group>";
+		};
+		AD299D41184CDEF400D6F05C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D03184CDE9300D6F05C /* Tools.h */,
+				AD299D04184CDE9300D6F05C /* Tools.m */,
+				AD299D82184D0C9B00D6F05C /* NSDateFormatter+RFC822.h */,
+				AD299D83184D0C9B00D6F05C /* NSDateFormatter+RFC822.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		AD299D42184CDF0D00D6F05C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D7C184CE5CB00D6F05C /* PlanIt.xcdatamodeld */,
+				AD299CB2184CDE9300D6F05C /* PICoreDataController.h */,
+				AD299CB3184CDE9300D6F05C /* PICoreDataController.m */,
+				AD299D43184CDF1600D6F05C /* CoreDataModels */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		AD299D43184CDF1600D6F05C /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D4C184CDFE600D6F05C /* Account */,
+				AD299D4D184CDFEC00D6F05C /* Profile */,
+				AD299D4E184CDFF300D6F05C /* Project */,
+			);
+			name = CoreDataModels;
+			sourceTree = "<group>";
+		};
+		AD299D44184CDF5400D6F05C /* Bug */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D4F184CE00B00D6F05C /* Add */,
+				AD299D6F184CE2B200D6F05C /* Detail */,
+				AD299D51184CE02500D6F05C /* TableView */,
+				AD299D50184CE01500D6F05C /* DataController */,
+				AD299D52184CE02E00D6F05C /* Status */,
+				AD299D53184CE03900D6F05C /* Type */,
+			);
+			name = Bug;
+			sourceTree = "<group>";
+		};
+		AD299D45184CDF6B00D6F05C /* Wiki */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CFF184CDE9300D6F05C /* PIWikiPageViewController.h */,
+				AD299D00184CDE9300D6F05C /* PIWikiPageViewController.m */,
+				AD299D01184CDE9300D6F05C /* PIWikiTableViewController.h */,
+				AD299D02184CDE9300D6F05C /* PIWikiTableViewController.m */,
+			);
+			name = Wiki;
+			sourceTree = "<group>";
+		};
+		AD299D46184CDF9900D6F05C /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D6A184CE24D00D6F05C /* Shared */,
+				AD299D6D184CE27A00D6F05C /* Task */,
+				AD299D56184CE07C00D6F05C /* Features */,
+				AD299D44184CDF5400D6F05C /* Bug */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		AD299D47184CDFAE00D6F05C /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D69184CE23100D6F05C /* Calendar */,
+				AD299D63184CE14400D6F05C /* RoadMap */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		AD299D48184CDFB600D6F05C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D79184CE47F00D6F05C /* Documents */,
+				AD299D5A184CE0D100D6F05C /* Gallery */,
+				AD299D45184CDF6B00D6F05C /* Wiki */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AD299D49184CDFBB00D6F05C /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D54184CE06B00D6F05C /* Add */,
+				AD299D67184CE1F400D6F05C /* Detail */,
+				AD299D66184CE18B00D6F05C /* TableView */,
+				AD299D70184CE2D800D6F05C /* DataController */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		AD299D4A184CDFC300D6F05C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CE3184CDE9300D6F05C /* PIProjectSelectorController.h */,
+				AD299CE4184CDE9300D6F05C /* PIProjectSelectorController.m */,
+				AD299CED184CDE9300D6F05C /* PISettingsViewController.h */,
+				AD299CEE184CDE9300D6F05C /* PISettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		AD299D4B184CDFC800D6F05C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CDD184CDE9300D6F05C /* PILoginViewController.h */,
+				AD299CDE184CDE9300D6F05C /* PILoginViewController.m */,
+				AD299D7F184D013E00D6F05C /* PILogSegue.h */,
+				AD299D80184D013E00D6F05C /* PILogSegue.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		AD299D4C184CDFE600D6F05C /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CAC184CDE9300D6F05C /* PICAccount.h */,
+				AD299CAD184CDE9300D6F05C /* PICAccount.m */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		AD299D4D184CDFEC00D6F05C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CB4184CDE9300D6F05C /* PICProfile.h */,
+				AD299CB5184CDE9300D6F05C /* PICProfile.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		AD299D4E184CDFF300D6F05C /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CB6184CDE9300D6F05C /* PICProject.h */,
+				AD299CB7184CDE9300D6F05C /* PICProject.m */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		AD299D4F184CE00B00D6F05C /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				AD299C92184CDE9300D6F05C /* PIAddBugTableViewController.h */,
+				AD299C93184CDE9300D6F05C /* PIAddBugTableViewController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		AD299D50184CE01500D6F05C /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CA4184CDE9300D6F05C /* PIBugDataController.h */,
+				AD299CA5184CDE9300D6F05C /* PIBugDataController.m */,
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		AD299D51184CE02500D6F05C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CA6184CDE9300D6F05C /* PIBugsTableViewController.h */,
+				AD299CA7184CDE9300D6F05C /* PIBugsTableViewController.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		AD299D52184CE02E00D6F05C /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CA8184CDE9300D6F05C /* PIBugStatusTableViewController.h */,
+				AD299CA9184CDE9300D6F05C /* PIBugStatusTableViewController.m */,
+			);
+			name = Status;
+			sourceTree = "<group>";
+		};
+		AD299D53184CE03900D6F05C /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CAA184CDE9300D6F05C /* PIBugTypeTableViewController.h */,
+				AD299CAB184CDE9300D6F05C /* PIBugTypeTableViewController.m */,
+			);
+			name = Type;
+			sourceTree = "<group>";
+		};
+		AD299D54184CE06B00D6F05C /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				AD299C9A184CDE9300D6F05C /* PIAddUserViewOneController.h */,
+				AD299C9B184CDE9300D6F05C /* PIAddUserViewOneController.m */,
+				AD299C9C184CDE9300D6F05C /* PIAddUserViewTwoController.h */,
+				AD299C9D184CDE9300D6F05C /* PIAddUserViewTwoController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		AD299D55184CE07200D6F05C /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				AD299C96184CDE9300D6F05C /* PIAddFeatureTableViewController.h */,
+				AD299C97184CDE9300D6F05C /* PIAddFeatureTableViewController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		AD299D56184CE07C00D6F05C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D55184CE07200D6F05C /* Add */,
+				AD299D78184CE46E00D6F05C /* Detail */,
+				AD299D75184CE3DC00D6F05C /* Status */,
+				AD299D7B184CE4A100D6F05C /* TableView */,
+				AD299D76184CE41800D6F05C /* DataController */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		AD299D57184CE09E00D6F05C /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CAE184CDE9300D6F05C /* PICalendarViewController.h */,
+				AD299CAF184CDE9300D6F05C /* PICalendarViewController.m */,
+			);
+			name = CalendarView;
+			sourceTree = "<group>";
+		};
+		AD299D58184CE0AA00D6F05C /* DayView */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CBA184CDE9300D6F05C /* PIDayViewController.h */,
+				AD299CBB184CDE9300D6F05C /* PIDayViewController.m */,
+			);
+			name = DayView;
+			sourceTree = "<group>";
+		};
+		AD299D59184CE0C100D6F05C /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				AD299C94184CDE9300D6F05C /* PIAddEventViewController.h */,
+				AD299C95184CDE9300D6F05C /* PIAddEventViewController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		AD299D5A184CE0D100D6F05C /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CDB184CDE9300D6F05C /* PIImageViewController.h */,
+				AD299CDC184CDE9300D6F05C /* PIImageViewController.m */,
+				AD299CD7184CDE9300D6F05C /* PIGalleryCell.h */,
+				AD299CD8184CDE9300D6F05C /* PIGalleryCell.m */,
+				AD299CD9184CDE9300D6F05C /* PIGalleryController.h */,
+				AD299CDA184CDE9300D6F05C /* PIGalleryController.m */,
+			);
+			name = Gallery;
+			sourceTree = "<group>";
+		};
+		AD299D5B184CE0F300D6F05C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CDF184CDE9300D6F05C /* PIProfile.h */,
+				AD299CE0184CDE9300D6F05C /* PIProfile.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		AD299D5C184CE0FB00D6F05C /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CE1184CDE9300D6F05C /* PIProject.h */,
+				AD299CE2184CDE9300D6F05C /* PIProject.m */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		AD299D5D184CE10600D6F05C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CE5184CDE9300D6F05C /* PIResource.h */,
+				AD299CE6184CDE9300D6F05C /* PIResource.m */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		AD299D5E184CE10E00D6F05C /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CEB184CDE9300D6F05C /* PISection.h */,
+				AD299CEC184CDE9300D6F05C /* PISection.m */,
+			);
+			name = Section;
+			sourceTree = "<group>";
+		};
+		AD299D5F184CE11700D6F05C /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CEF184CDE9300D6F05C /* PITask.h */,
+				AD299CF0184CDE9300D6F05C /* PITask.m */,
+			);
+			name = Task;
+			sourceTree = "<group>";
+		};
+		AD299D60184CE11E00D6F05C /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CA0184CDE9300D6F05C /* PIArticle.h */,
+				AD299CA1184CDE9300D6F05C /* PIArticle.m */,
+			);
+			name = Article;
+			sourceTree = "<group>";
+		};
+		AD299D61184CE12500D6F05C /* Bug */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CA2184CDE9300D6F05C /* PIBug.h */,
+				AD299CA3184CDE9300D6F05C /* PIBug.m */,
+			);
+			name = Bug;
+			sourceTree = "<group>";
+		};
+		AD299D62184CE13100D6F05C /* User */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CF7184CDE9300D6F05C /* PIUser.h */,
+				AD299CF8184CDE9300D6F05C /* PIUser.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		AD299D63184CE14400D6F05C /* RoadMap */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CE9184CDE9300D6F05C /* PIRoadmapViewController.h */,
+				AD299CEA184CDE9300D6F05C /* PIRoadmapViewController.m */,
+			);
+			name = RoadMap;
+			sourceTree = "<group>";
+		};
+		AD299D64184CE17A00D6F05C /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CCB184CDE9300D6F05C /* PIEvent.h */,
+				AD299CCC184CDE9300D6F05C /* PIEvent.m */,
+			);
+			name = Event;
+			sourceTree = "<group>";
+		};
+		AD299D65184CE18000D6F05C /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CCF184CDE9300D6F05C /* PIFeature.h */,
+				AD299CD0184CDE9300D6F05C /* PIFeature.m */,
+			);
+			name = Feature;
+			sourceTree = "<group>";
+		};
+		AD299D66184CE18B00D6F05C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CFD184CDE9300D6F05C /* PIUsersTableViewController.h */,
+				AD299CFE184CDE9300D6F05C /* PIUsersTableViewController.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		AD299D67184CE1F400D6F05C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CFB184CDE9300D6F05C /* PIUserRightsController.h */,
+				AD299CFC184CDE9300D6F05C /* PIUserRightsController.m */,
+				AD299CC7184CDE9300D6F05C /* PIDetailedUserController.h */,
+				AD299CC8184CDE9300D6F05C /* PIDetailedUserController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		AD299D68184CE21100D6F05C /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CCD184CDE9300D6F05C /* PIEventDataController.h */,
+				AD299CCE184CDE9300D6F05C /* PIEventDataController.m */,
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		AD299D69184CE23100D6F05C /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D59184CE0C100D6F05C /* Add */,
+				AD299D73184CE36900D6F05C /* Detail */,
+				AD299D57184CE09E00D6F05C /* CalendarView */,
+				AD299D58184CE0AA00D6F05C /* DayView */,
+				AD299D68184CE21100D6F05C /* DataController */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		AD299D6A184CE24D00D6F05C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D6B184CE25D00D6F05C /* Description */,
+				AD299D6E184CE28A00D6F05C /* Task */,
+				AD299D72184CE35500D6F05C /* Responsable */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		AD299D6B184CE25D00D6F05C /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CBD184CDE9300D6F05C /* PIDescriptionViewController.h */,
+				AD299CBE184CDE9300D6F05C /* PIDescriptionViewController.m */,
+			);
+			name = Description;
+			sourceTree = "<group>";
+		};
+		AD299D6C184CE26F00D6F05C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CC5184CDE9300D6F05C /* PIDetailedTaskViewController.h */,
+				AD299CC6184CDE9300D6F05C /* PIDetailedTaskViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		AD299D6D184CE27A00D6F05C /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D77184CE42900D6F05C /* Add */,
+				AD299D6C184CE26F00D6F05C /* Detail */,
+				AD299D74184CE3BB00D6F05C /* DataController */,
+				AD299D71184CE2EA00D6F05C /* TableView */,
+			);
+			name = Task;
+			sourceTree = "<group>";
+		};
+		AD299D6E184CE28A00D6F05C /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CF3184CDE9300D6F05C /* PITasksListTableViewController.h */,
+				AD299CF4184CDE9300D6F05C /* PITasksListTableViewController.m */,
+			);
+			name = Task;
+			sourceTree = "<group>";
+		};
+		AD299D6F184CE2B200D6F05C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CBF184CDE9300D6F05C /* PIDetailedBugTableViewController.h */,
+				AD299CC0184CDE9300D6F05C /* PIDetailedBugTableViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		AD299D70184CE2D800D6F05C /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CF9184CDE9300D6F05C /* PIUserDataController.h */,
+				AD299CFA184CDE9300D6F05C /* PIUserDataController.m */,
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		AD299D71184CE2EA00D6F05C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CF5184CDE9300D6F05C /* PITasksTableViewController.h */,
+				AD299CF6184CDE9300D6F05C /* PITasksTableViewController.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		AD299D72184CE35500D6F05C /* Responsable */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CE7184CDE9300D6F05C /* PIResponsableTableViewController.h */,
+				AD299CE8184CDE9300D6F05C /* PIResponsableTableViewController.m */,
+			);
+			name = Responsable;
+			sourceTree = "<group>";
+		};
+		AD299D73184CE36900D6F05C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CC1184CDE9300D6F05C /* PIDetailedEventViewController.h */,
+				AD299CC2184CDE9300D6F05C /* PIDetailedEventViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		AD299D74184CE3BB00D6F05C /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CF1184CDE9300D6F05C /* PITaskDataController.h */,
+				AD299CF2184CDE9300D6F05C /* PITaskDataController.m */,
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		AD299D75184CE3DC00D6F05C /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CD5184CDE9300D6F05C /* PIFeatureStatusTableViewController.h */,
+				AD299CD6184CDE9300D6F05C /* PIFeatureStatusTableViewController.m */,
+			);
+			name = Status;
+			sourceTree = "<group>";
+		};
+		AD299D76184CE41800D6F05C /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CD1184CDE9300D6F05C /* PIFeatureDataController.h */,
+				AD299CD2184CDE9300D6F05C /* PIFeatureDataController.m */,
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		AD299D77184CE42900D6F05C /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				AD299C98184CDE9300D6F05C /* PIAddTaskViewController.h */,
+				AD299C99184CDE9300D6F05C /* PIAddTaskViewController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		AD299D78184CE46E00D6F05C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CC3184CDE9300D6F05C /* PIDetailedFeatureTableViewController.h */,
+				AD299CC4184CDE9300D6F05C /* PIDetailedFeatureTableViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		AD299D79184CE47F00D6F05C /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CB8184CDE9300D6F05C /* PICustomPreviewItem.h */,
+				AD299CB9184CDE9300D6F05C /* PICustomPreviewItem.m */,
+				AD299D7A184CE49300D6F05C /* TableView */,
+			);
+			name = Documents;
+			sourceTree = "<group>";
+		};
+		AD299D7A184CE49300D6F05C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CC9184CDE9300D6F05C /* PIDocumentTableViewController.h */,
+				AD299CCA184CDE9300D6F05C /* PIDocumentTableViewController.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		AD299D7B184CE4A100D6F05C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AD299CD3184CDE9300D6F05C /* PIFeaturesTableViewController.h */,
+				AD299CD4184CDE9300D6F05C /* PIFeaturesTableViewController.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		AD8634CE184CDAE400A25F87 = {
+			isa = PBXGroup;
+			children = (
+				AD8634E0184CDAE400A25F87 /* PlanIT */,
+				AD863502184CDAE400A25F87 /* PlanITTests */,
+				AD8634D9184CDAE400A25F87 /* Frameworks */,
+				AD8634D8184CDAE400A25F87 /* Products */,
+				5C80E641140348AE8B5C580B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		AD8634D8184CDAE400A25F87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD8634D7184CDAE400A25F87 /* PlanIT.app */,
+				AD8634FB184CDAE400A25F87 /* PlanITTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD8634D9184CDAE400A25F87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD8634DA184CDAE400A25F87 /* Foundation.framework */,
+				AD8634DC184CDAE400A25F87 /* CoreGraphics.framework */,
+				AD8634DE184CDAE400A25F87 /* UIKit.framework */,
+				AD8634FC184CDAE400A25F87 /* XCTest.framework */,
+				DCAEE1D756BC4953B6B633A1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD8634E0184CDAE400A25F87 /* PlanIT */ = {
+			isa = PBXGroup;
+			children = (
+				AD299D42184CDF0D00D6F05C /* CoreData */,
+				AD299D3E184CDEA100D6F05C /* Models */,
+				AD299D40184CDEDE00D6F05C /* ClientAPI */,
+				AD299D41184CDEF400D6F05C /* Tools */,
+				AD299D3F184CDEAF00D6F05C /* Controllers */,
+				AD299C9E184CDE9300D6F05C /* PIAppDelegate.h */,
+				AD299C9F184CDE9300D6F05C /* PIAppDelegate.m */,
+				AD863514184CDDA600A25F87 /* PIAppDelegate.h */,
+				AD863515184CDDA600A25F87 /* PIAppDelegate.m */,
+				AD863512184CDD4E00A25F87 /* Main.storyboard */,
+				AD8634F5184CDAE400A25F87 /* Images.xcassets */,
+				AD8634E1184CDAE400A25F87 /* Supporting Files */,
+			);
+			path = PlanIT;
+			sourceTree = "<group>";
+		};
+		AD8634E1184CDAE400A25F87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD8634E2184CDAE400A25F87 /* PlanIT-Info.plist */,
+				AD8634E3184CDAE400A25F87 /* InfoPlist.strings */,
+				AD8634E6184CDAE400A25F87 /* main.m */,
+				AD8634E8184CDAE400A25F87 /* PlanIT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD863502184CDAE400A25F87 /* PlanITTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD863508184CDAE400A25F87 /* PlanITTests.m */,
+				AD863503184CDAE400A25F87 /* Supporting Files */,
+			);
+			path = PlanITTests;
+			sourceTree = "<group>";
+		};
+		AD863503184CDAE400A25F87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD863504184CDAE400A25F87 /* PlanITTests-Info.plist */,
+				AD863505184CDAE400A25F87 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD8634D6184CDAE400A25F87 /* PlanIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD86350C184CDAE400A25F87 /* Build configuration list for PBXNativeTarget "PlanIT" */;
+			buildPhases = (
+				BF4FB22A28884546852F7826 /* Check Pods Manifest.lock */,
+				AD8634D3184CDAE400A25F87 /* Sources */,
+				AD8634D4184CDAE400A25F87 /* Frameworks */,
+				AD8634D5184CDAE400A25F87 /* Resources */,
+				6179C7A52A5748C786EE6652 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanIT;
+			productName = PlanIT;
+			productReference = AD8634D7184CDAE400A25F87 /* PlanIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD8634FA184CDAE400A25F87 /* PlanITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD86350F184CDAE400A25F87 /* Build configuration list for PBXNativeTarget "PlanITTests" */;
+			buildPhases = (
+				AD8634F7184CDAE400A25F87 /* Sources */,
+				AD8634F8184CDAE400A25F87 /* Frameworks */,
+				AD8634F9184CDAE400A25F87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD863501184CDAE400A25F87 /* PBXTargetDependency */,
+			);
+			name = PlanITTests;
+			productName = PlanITTests;
+			productReference = AD8634FB184CDAE400A25F87 /* PlanITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD8634CF184CDAE400A25F87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PI;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "PlanIT Company";
+				TargetAttributes = {
+					AD8634FA184CDAE400A25F87 = {
+						TestTargetID = AD8634D6184CDAE400A25F87;
+					};
+				};
+			};
+			buildConfigurationList = AD8634D2184CDAE400A25F87 /* Build configuration list for PBXProject "PlanIT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD8634CE184CDAE400A25F87;
+			productRefGroup = AD8634D8184CDAE400A25F87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD8634D6184CDAE400A25F87 /* PlanIT */,
+				AD8634FA184CDAE400A25F87 /* PlanITTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD8634D5184CDAE400A25F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD863513184CDD4E00A25F87 /* Main.storyboard in Resources */,
+				AD8634F6184CDAE400A25F87 /* Images.xcassets in Resources */,
+				AD8634E5184CDAE400A25F87 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8634F9184CDAE400A25F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD863507184CDAE400A25F87 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6179C7A52A5748C786EE6652 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF4FB22A28884546852F7826 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD8634D3184CDAE400A25F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD299D30184CDE9300D6F05C /* PIRoadmapViewController.m in Sources */,
+				AD299D16184CDE9300D6F05C /* PICProfile.m in Sources */,
+				AD299D12184CDE9300D6F05C /* PICAccount.m in Sources */,
+				AD299D11184CDE9300D6F05C /* PIBugTypeTableViewController.m in Sources */,
+				AD299D39184CDE9300D6F05C /* PIUserRightsController.m in Sources */,
+				AD299D14184CDE9300D6F05C /* PIClientAPI.m in Sources */,
+				AD299D36184CDE9300D6F05C /* PITasksTableViewController.m in Sources */,
+				AD299D2E184CDE9300D6F05C /* PIResource.m in Sources */,
+				AD299D1F184CDE9300D6F05C /* PIDetailedUserController.m in Sources */,
+				AD299D25184CDE9300D6F05C /* PIFeaturesTableViewController.m in Sources */,
+				AD299D1A184CDE9300D6F05C /* PIDescriptionViewController.m in Sources */,
+				AD299D09184CDE9300D6F05C /* PIAddUserViewOneController.m in Sources */,
+				AD299D38184CDE9300D6F05C /* PIUserDataController.m in Sources */,
+				AD299D20184CDE9300D6F05C /* PIDocumentTableViewController.m in Sources */,
+				AD299D2F184CDE9300D6F05C /* PIResponsableTableViewController.m in Sources */,
+				AD299D0A184CDE9300D6F05C /* PIAddUserViewTwoController.m in Sources */,
+				AD299D10184CDE9300D6F05C /* PIBugStatusTableViewController.m in Sources */,
+				AD299D3A184CDE9300D6F05C /* PIUsersTableViewController.m in Sources */,
+				AD299D2A184CDE9300D6F05C /* PILoginViewController.m in Sources */,
+				AD299D26184CDE9300D6F05C /* PIFeatureStatusTableViewController.m in Sources */,
+				AD299D06184CDE9300D6F05C /* PIAddEventViewController.m in Sources */,
+				AD299D22184CDE9300D6F05C /* PIEventDataController.m in Sources */,
+				AD299D0F184CDE9300D6F05C /* PIBugsTableViewController.m in Sources */,
+				AD299D24184CDE9300D6F05C /* PIFeatureDataController.m in Sources */,
+				AD299D33184CDE9300D6F05C /* PITask.m in Sources */,
+				AD299D23184CDE9300D6F05C /* PIFeature.m in Sources */,
+				AD299D81184D013E00D6F05C /* PILogSegue.m in Sources */,
+				AD299D1D184CDE9300D6F05C /* PIDetailedFeatureTableViewController.m in Sources */,
+				AD299D37184CDE9300D6F05C /* PIUser.m in Sources */,
+				AD299D18184CDE9300D6F05C /* PICustomPreviewItem.m in Sources */,
+				AD299D3B184CDE9300D6F05C /* PIWikiPageViewController.m in Sources */,
+				AD299D7E184CE5CB00D6F05C /* PlanIt.xcdatamodeld in Sources */,
+				AD299D2B184CDE9300D6F05C /* PIProfile.m in Sources */,
+				AD299D07184CDE9300D6F05C /* PIAddFeatureTableViewController.m in Sources */,
+				AD299D3C184CDE9300D6F05C /* PIWikiTableViewController.m in Sources */,
+				AD299D27184CDE9300D6F05C /* PIGalleryCell.m in Sources */,
+				AD299D1B184CDE9300D6F05C /* PIDetailedBugTableViewController.m in Sources */,
+				AD299D21184CDE9300D6F05C /* PIEvent.m in Sources */,
+				AD863516184CDDA600A25F87 /* PIAppDelegate.m in Sources */,
+				AD299D31184CDE9300D6F05C /* PISection.m in Sources */,
+				AD299D34184CDE9300D6F05C /* PITaskDataController.m in Sources */,
+				AD299D2C184CDE9300D6F05C /* PIProject.m in Sources */,
+				AD299D1C184CDE9300D6F05C /* PIDetailedEventViewController.m in Sources */,
+				AD299D1E184CDE9300D6F05C /* PIDetailedTaskViewController.m in Sources */,
+				AD299D0D184CDE9300D6F05C /* PIBug.m in Sources */,
+				AD299D35184CDE9300D6F05C /* PITasksListTableViewController.m in Sources */,
+				AD299D19184CDE9300D6F05C /* PIDayViewController.m in Sources */,
+				AD8634E7184CDAE400A25F87 /* main.m in Sources */,
+				AD299D3D184CDE9300D6F05C /* Tools.m in Sources */,
+				AD299D84184D0C9B00D6F05C /* NSDateFormatter+RFC822.m in Sources */,
+				AD299D08184CDE9300D6F05C /* PIAddTaskViewController.m in Sources */,
+				AD299D17184CDE9300D6F05C /* PICProject.m in Sources */,
+				AD299D15184CDE9300D6F05C /* PICoreDataController.m in Sources */,
+				AD299D2D184CDE9300D6F05C /* PIProjectSelectorController.m in Sources */,
+				AD299D05184CDE9300D6F05C /* PIAddBugTableViewController.m in Sources */,
+				AD299D28184CDE9300D6F05C /* PIGalleryController.m in Sources */,
+				AD299D0E184CDE9300D6F05C /* PIBugDataController.m in Sources */,
+				AD299D13184CDE9300D6F05C /* PICalendarViewController.m in Sources */,
+				AD299D0C184CDE9300D6F05C /* PIArticle.m in Sources */,
+				AD299D32184CDE9300D6F05C /* PISettingsViewController.m in Sources */,
+				AD299D29184CDE9300D6F05C /* PIImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8634F7184CDAE400A25F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD863509184CDAE400A25F87 /* PlanITTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD863501184CDAE400A25F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8634D6184CDAE400A25F87 /* PlanIT */;
+			targetProxy = AD863500184CDAE400A25F87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD8634E3184CDAE400A25F87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8634E4184CDAE400A25F87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD863505184CDAE400A25F87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD863506184CDAE400A25F87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD86350A184CDAE400A25F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD86350B184CDAE400A25F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD86350D184CDAE400A25F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C80E641140348AE8B5C580B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanIT/PlanIT-Prefix.pch";
+				INFOPLIST_FILE = "PlanIT/PlanIT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD86350E184CDAE400A25F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C80E641140348AE8B5C580B /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanIT/PlanIT-Prefix.pch";
+				INFOPLIST_FILE = "PlanIT/PlanIT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD863510184CDAE400A25F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlanIT.app/PlanIT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanIT/PlanIT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlanITTests/PlanITTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AD863511184CDAE400A25F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlanIT.app/PlanIT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlanIT/PlanIT-Prefix.pch";
+				INFOPLIST_FILE = "PlanITTests/PlanITTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD8634D2184CDAE400A25F87 /* Build configuration list for PBXProject "PlanIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD86350A184CDAE400A25F87 /* Debug */,
+				AD86350B184CDAE400A25F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD86350C184CDAE400A25F87 /* Build configuration list for PBXNativeTarget "PlanIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD86350D184CDAE400A25F87 /* Debug */,
+				AD86350E184CDAE400A25F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD86350F184CDAE400A25F87 /* Build configuration list for PBXNativeTarget "PlanITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD863510184CDAE400A25F87 /* Debug */,
+				AD863511184CDAE400A25F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD299D7C184CE5CB00D6F05C /* PlanIt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD299D7D184CE5CB00D6F05C /* PlanIt.xcdatamodel */,
+			);
+			currentVersion = AD299D7D184CE5CB00D6F05C /* PlanIt.xcdatamodel */;
+			path = PlanIt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AD8634CF184CDAE400A25F87 /* Project object */;
+}
